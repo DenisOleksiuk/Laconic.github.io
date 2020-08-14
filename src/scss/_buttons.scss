@@ -1,0 +1,52 @@
+.btn_header{
+    width: 210px;
+    height: 32px;
+    margin-top: 21px;
+    border: 1px solid #2F80ED;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+.btn_main{
+    width: 210px;
+    height: 32px;
+    margin-top: 64px;
+    background: #2F80ED;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn_last{
+    margin-top: 18px;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 220px;
+    height: 44px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 470;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F80ED;
+    text-decoration: none;
+    cursor: pointer;
+}

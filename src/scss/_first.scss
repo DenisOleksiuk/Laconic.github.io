@@ -1,0 +1,102 @@
+.first {
+    background: url(../img/background.png) center (center / cover) no-repeat;
+    height: 530px;
+    position: relative;
+}
+
+.half{
+    background: linear-gradient(87.68deg, rgba(255, 255, 255, 0) 7.73%, rgba(255, 255, 255, 0.9) 55.76%);
+    width: 1051px;
+    height: 530px;
+    position: absolute;
+    right: 0;
+}
+
+.medic{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    max-width: 470px;
+    margin-top: 64px;
+    right: 131px;
+    align-items: flex-end;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #2F80ED;
+}
+
+.sub__title{
+    margin-top: 1px;
+    font-size: 43px;
+    line-height: 55px;
+    text-align: right;
+    color: #000000;
+}
+
+.first__sub{
+    position: relative;
+    height: 72px;
+    background: #2F80ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__sub{
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.sub_line {
+    width: 48px;
+    transform: rotate(90deg);
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 120px;
+    &__phone{
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.email{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
